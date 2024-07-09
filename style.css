@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head{
+    background-color: rgb(108, 146, 161);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.book{
+    background-color: rgb(12, 10, 12);
+    color: white;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book h2{
+    color: cadetblue;
+}
+.book-delete{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.book-add{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.plus{
+    background-color: rgb(54, 100, 121);
+    border-radius: 100%;
+    width: 5%;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    border: none;
+    font-size: 40px;
+    padding: 20px;
+}
+.lay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    display: none;
+}
+.pop{
+    background-color:  rgb(108, 146, 161);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.pop h2{
+    text-align: center;
+
+
+}
+.pop input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-bottom: solid black;
+}
+.pop textarea{
+    width: 90%;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: solid black;
+}
+.pop input::placeholder{
+    color: black;
+}
+.pop textarea::placeholder{
+    color: black;
+}
+.pop input:focus{
+    outline: none;
+}
+.pop textarea:focus{
+    outline: none;
+}
+.main-delete{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.book p{
+    padding-top: 5px;
+}
